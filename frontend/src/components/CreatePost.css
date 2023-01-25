@@ -1,0 +1,27 @@
+.createPost, .submitPost, .closeButton {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: inherit;
+}
+
+.createPost:active, .submitPost:active, .closeButton:active {
+    background-color: gray;
+}
+
+.form {
+    display: grid;
+    text-align: left;
+    justify-content: center;
+}
+
+.formTitle {
+    text-align: center;
+}
+
+.submitPost {
+    margin-bottom: 5px;
+}
