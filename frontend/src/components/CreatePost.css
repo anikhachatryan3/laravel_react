@@ -25,3 +25,15 @@
 .submitPost {
     margin-bottom: 5px;
 }
+
+textarea {
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-height: 40px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

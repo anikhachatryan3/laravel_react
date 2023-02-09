@@ -1,0 +1,111 @@
+.createAccountPage .errorMessage {
+    text-align: center;
+    color: #ed4e4e;
+}
+
+.createAccountForm {
+    display: grid;
+    text-align: right;      /* left or right? */
+    justify-content: center;
+}
+
+.createAccountForm .nameItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.createAccountForm .nameInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 10px;
+}
+
+.emailItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.createAccountForm .emailInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-bottom: 10px;
+}
+
+.createAccountForm .passwordItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.createAccountForm .passwordInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin-bottom: 10px;
+}
+
+.createAccountForm .confirmPasswordItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.createAccountForm .confirmPasswordInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    margin-bottom: 10px;
+}
+
+.createAccountForm .createAccountButton {
+    margin: 0 auto;
+    display: grid;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: inherit;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 9;
+}
+
+.createAccountForm .createAccountButton:active {
+    background-color: gray;
+}
+
+.login {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+a {
+    color: #A9C9E6;
+}
+
+a:active {
+    color: #8db9e0;
+}
+
+a:visited {
+    color: #7aa7cf;
+}
+
+a:visited:active {
+    color: #5a8cb8;
+}

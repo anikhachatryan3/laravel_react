@@ -75,9 +75,9 @@ const CreatePost = ({posts, setPosts}: Props) => {
                 }
             </div>
             { visible &&
-            <div className="formPopup" id="createPostForm">
+            <div>
                 <form  className="form">
-                    <h3 className="formTitle">Create Post</h3>
+                    <h2 className="formTitle">Create Post</h2>
                     <label>
                         <b>
                             Title:&nbsp;

@@ -1,0 +1,80 @@
+.loginPage .errorMessage {
+    text-align: center;
+    color: #ed4e4e;
+}
+
+.loginForm {
+    display: grid;
+    text-align: right;
+    justify-content: center;
+}
+
+.loginForm .emailItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.loginForm .emailInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-bottom: 10px;
+}
+
+.loginForm .passwordItem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.loginForm .passwordInput {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-bottom: 10px;
+}
+
+.loginForm .loginButton {
+    margin: 0 auto;
+    display: grid;
+    border: none;
+    padding: 6px 11px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: inherit;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+.loginForm .loginButton:active {
+    background-color: gray;
+}
+
+.createAccount {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+a {
+    color: #A9C9E6;
+}
+
+a:active {
+    color: #8db9e0;
+}
+
+a:visited {
+    color: #7aa7cf;
+}
+
+a:visited:active {
+    color: #5a8cb8;
+}

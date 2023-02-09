@@ -17,6 +17,11 @@ function Navbar() {
         navigate(path);
     }
 
+    const navToLogin = () => {
+        let path = `/login`;
+        navigate(path);
+    }
+
     return (
         <React.Fragment>
             <AppBar position="sticky" elevation={0}>
@@ -25,7 +30,7 @@ function Navbar() {
                     <Stack direction='row' spacing={2}>
                         <Button onClick={navToHome} color='inherit'>Home</Button>
                         <Button onClick={navToMyPosts} color='inherit'>My Posts</Button>
-                        <Button color="inherit">Log In</Button>
+                        <Button onClick={navToLogin} color="inherit">Log In</Button>
                     </Stack>
                 </Toolbar>
             </AppBar>

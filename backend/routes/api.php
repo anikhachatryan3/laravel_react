@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\CreateAccountController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PostController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -24,3 +26,5 @@ Route::get('/{user}/posts', [PostController::class, 'myPosts'])->name('my-posts'
 Route::get('/posts/{post}', [PostController::class, 'getPost'])->name('get-post');
 Route::delete('/posts/{post}', [PostController::class, 'deletePost'])->name('delete-post');
 Route::post('/posts', [PostController::class, 'createPost'])->name('create-post');
+Route::post('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/create-account', [CreateAccountController::class, 'index'])->name('create-account');
